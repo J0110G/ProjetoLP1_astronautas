@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-
+//teste
 class astronauta {
 public:
     string cpf;
