@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-//teste
+
 class astronauta {
 public:
     string cpf;
@@ -55,7 +55,10 @@ public:
 
     }
     void explodir(){
-        
+        this->explodido++;
+        this->finalizado++;
+        /*a.morto++;
+        a.indisponivel++;*/
     }
 };
 
@@ -121,13 +124,13 @@ int main() {
                 cout << "Voo não encontrado." << endl;
             }
         } else if (x == 4){
-            /* code */
+            //
         } else if (x == 5){
-            /* code */
+            //
         } else if (x == 6){
-            /* code */
+            //v.explodir();
         } else if (x == 7){
-            /* code */
+            //
         } else if (x == 8){
             cout << "Voos cadastrados:" << endl;
             for (voo& v : vetor_v) {
